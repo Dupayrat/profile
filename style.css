@@ -1,0 +1,121 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+
+body {
+    background-color: rgba(255, 255, 255, 1);
+    color: #7E2E84;
+    font-family: 'Roboto Mono', serif;
+    font-size: 20px;
+    font-weight: lighter;
+    display: line
+    margin: 30px;
+    line-height : 25px;
+}
+
+h1 {
+    color: #CCF5AC;
+    background: #999999;
+    font-size: 32px;
+    font-weight: 750;
+    margin-right: 0.80em;
+}
+
+
+h2 {
+    color: #42414C;
+    background: #0000;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Roboto Mono', sans-serif;
+
+    margin-right: 0.80em;
+    margin-block-start: 2em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 40px;
+    margin-inline-end: 0px;
+}
+
+a:-webkit-any-link {
+    color: #CCF5AC;
+    cursor: pointer;
+    text-decoration: underline overline;;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: initial;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card-white {
+    background-image: url(images/Philippe.jpg);
+    background-size: center;
+    background-repeat:no-repeat;
+    background-size:50%;
+    color: black;
+    padding: 80px;
+    box-shadow: 10px 20px 40px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    margin: 4px 0px;
+    text-align: center;
+}
+
+.responsive  { width: 100%;
+  height: auto;
+  }
+
+.img_circle {
+  border-radius: 50%
+}
+.btn-yellow {
+
+    background-color: #CFD186;
+    color: blue;
+    padding: 17px 12px;
+    border-radius: 5px;
+}
+
+ li {
+    list-style: none;
+    display: inline;
+    padding: 10px
+    color: rgb(230, 230, 230);
+}
+
+.fab {
+font-size: 40px;
+}
+
+.list-inline i {
+    list-style-type: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+    padding-left: 0px;
+    }
+
+#bouton {
+  color: rgba(200,50,20,0.1);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  h1 {
+    font-size:32px;
+  }
+  .container {
+    width: 700px;
+  }
+
+
+
+@media (max-width: 540px) {
+  /* For a screen < 960px, this CSS will be read */
+  h1 {
+    font-size:16px;
+  }
+   h2 {
+    font-size:14px;
+  }
+  }
